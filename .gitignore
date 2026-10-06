@@ -1,0 +1,162 @@
+# ==============================================================================
+# Dependencies & Package Managers
+# ==============================================================================
+node_modules/
+**/node_modules/
+jspm_packages/
+web_modules/
+
+# Yarn
+.pnp
+.pnp.js
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ==============================================================================
+# Production Builds & Compiled Outputs
+# ==============================================================================
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# ==============================================================================
+# Webpack & Bundler Artifacts
+# ==============================================================================
+.webpack/
+stats.json
+bundle-report.html
+report.html
+*.tsbuildinfo
+
+# ==============================================================================
+# Logs & Debugging
+# ==============================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic / Profiling dumps
+core
+core.*
+*.cpuprofile
+*.heapprofile
+*.heapsnapshot
+
+# ==============================================================================
+# Testing & Code Coverage
+# ==============================================================================
+coverage/
+**/coverage/
+.nyc_output/
+*.lcov
+test-results/
+playwright-report/
+.vitest/
+cypress/videos/
+cypress/screenshots/
+
+# ==============================================================================
+# Caches & Tooling Artifacts
+# ==============================================================================
+.cache/
+**/cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.prettiercache
+.turbo/
+.temp/
+.tmp/
+
+# ==============================================================================
+# Environment Variables & Secrets
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.env
+*.env.*
+
+# Keep example / template environment files tracked
+!.env.example
+!.env*.example
+!.env.template
+!.env*.template
+
+# ==============================================================================
+# IDEs & Code Editors
+# ==============================================================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (WebStorm, IntelliJ IDEA, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+.#*
+\#*#
+
+# ==============================================================================
+# Operating System Metadata
+# ==============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.fuse_hidden*
+.Trash-*
